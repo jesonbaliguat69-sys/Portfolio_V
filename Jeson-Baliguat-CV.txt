@@ -1,0 +1,37 @@
+Jeson Baliguat
+BSIT Student | Aspiring Software Developer
+Location: Philippines
+
+Profile
+Passionate about web development, programming, databases, and creating modern digital solutions. I enjoy building projects that solve real-world problems while continuously improving my technical skills.
+
+Education
+Bachelor of Science in Information Technology (BSIT)
+
+Core Skills
+- HTML5
+- CSS3
+- JavaScript
+- Java
+- SQL Server
+- UI/UX Design
+
+Tools & Technologies
+- Visual Studio Code
+- Git
+- GitHub
+- MySQL
+- SQL Server
+- XAMPP
+- Figma
+- Canva
+
+Selected Projects
+- Face Recognition System (Python + OpenCV)
+- Hand Gesture Drawing System (Python + MediaPipe)
+- Restaurant POS System (Python + SQL)
+- Student Transportation Card System (RFID + Database)
+- Personal Portfolio Website (HTML + CSS + JavaScript)
+
+Goal
+To grow into a software engineer by building reliable, user-focused applications and gaining real-world internship experience.

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeson Baliguat | Student Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Premium student developer portfolio for Jeson Baliguat, a BSIT student and aspiring software developer."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-shell glass" id="navbar">
+        <a class="brand" href="#home" aria-label="Jeson Baliguat home">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span>JB Portfolio</span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#tools" class="nav-link">Tools</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v2.2"></path>
+              <path d="M12 18.8V21"></path>
+              <path d="M4.9 4.9l1.5 1.5"></path>
+              <path d="M17.6 17.6l1.5 1.5"></path>
+              <path d="M3 12h2.2"></path>
+              <path d="M18.8 12H21"></path>
+              <path d="M4.9 19.1l1.5-1.5"></path>
+              <path d="M17.6 6.4l1.5-1.5"></path>
+              <circle cx="12" cy="12" r="4.2"></circle>
+            </svg>
+          </button>
+          <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h16"></path>
+              <path d="M4 12h16"></path>
+              <path d="M4 17h16"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container">
+        <article class="hero-card glass reveal">
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <div class="hero-divider"></div>
+              <h1 class="hero-title">I'm Jeson, a Web Developer</h1>
+              <p>
+                Student developer focused on clean websites, useful systems, and building practical projects that keep getting sharper with every release.
+              </p>
+              <a class="hero-scroll" href="#about" aria-label="Scroll to about section">v</a>
+            </div>
+
+            <div class="hero-portrait-column">
+              <div class="photo-frame">
+                <img
+                  class="portrait"
+                  src="Son-portfolio-bg.png"
+                  alt="Jeson Baliguat portrait"
+                >
+              </div>
+            </div>
+
+            <aside class="hero-side">
+              <div class="hero-side-block">
+                <div class="hero-side-label">About Me</div>
+                <p>
+                  BSIT student from the Philippines with a strong interest in web development, databases, UI design, and software that solves real problems.
+                </p>
+              </div>
+
+              <div class="hero-side-block">
+                <div class="hero-side-label">My Work</div>
+                <ul class="hero-side-list">
+                  <li>Builds responsive portfolio and landing pages.</li>
+                  <li>Creates student systems with database-backed features.</li>
+                  <li>Explores JavaScript, SQL, Java, and UI design.</li>
+                </ul>
+                <a class="button secondary" href="Jeson-Baliguat-CV.txt" download>Download CV</a>
+              </div>
+
+              <div class="hero-side-block">
+                <div class="hero-side-label">Follow Me</div>
+                <div class="hero-social" aria-label="Social links">
+                  <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M9 19c-4 1.2-4-2-5.5-2.5"></path>
+                      <path d="M14.5 21v-3.1c0-1 .1-1.4-.4-2 2.5-.3 5.1-1.2 5.1-5.5 0-1.2-.4-2.2-1.1-3 .1-.3.5-1.4-.1-2.9 0 0-.9-.3-3 .1a10.1 10.1 0 0 0-5.5 0c-2.1-.4-3-.1-3-.1-.6 1.5-.2 2.6-.1 2.9-.7.8-1.1 1.8-1.1 3 0 4.3 2.6 5.2 5.1 5.5-.4.4-.5.9-.5 1.7V21"></path>
+                    </svg>
+                  </a>
+                  <a href="https://facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 8h2.5V4.5H14c-2.3 0-4 1.7-4 4v2H7.5V14H10v5.5h4V14h2.7l.5-3.5H14v-1.8c0-.5.3-.7 0-.7z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M7 9v8"></path>
+                      <path d="M7 6.5v.1"></path>
+                      <path d="M11 17V9"></path>
+                      <path d="M11 11.8c0-1.6 1.3-2.8 2.9-2.8S17 10.2 17 11.8V17"></path>
+                    </svg>
+                  </a>
+                  <a href="mailto:jeson@example.com" aria-label="Email">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M4 7h16v10H4z"></path>
+                      <path d="M4 8l8 6 8-6"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <article class="about-copy glass reveal">
+          <span class="eyebrow">About Me</span>
+          <h2>Designing with clarity and building with curiosity.</h2>
+          <p>
+            I am a BSIT student with a strong passion for programming, web development, databases, and UI design.
+            I enjoy transforming ideas into functional applications and continuously learning new technologies.
+          </p>
+        </article>
+
+        <div class="info-grid reveal">
+          <div class="info-card glass">
+            <span class="label">Name</span>
+            <strong>Jeson Baliguat</strong>
+          </div>
+          <div class="info-card glass">
+            <span class="label">Course</span>
+            <strong>BSIT</strong>
+          </div>
+          <div class="info-card glass">
+            <span class="label">Status</span>
+            <strong>Student Developer</strong>
+          </div>
+          <div class="info-card glass">
+            <span class="label">Goal</span>
+            <strong>Software Engineer</strong>
+          </div>
+          <div class="info-card glass">
+            <span class="label">Focus</span>
+            <strong>Web Development &amp; Programming</strong>
+          </div>
+          <div class="info-card glass">
+            <span class="label">Location</span>
+            <strong>Philippines</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container skills-panel glass reveal">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Core Skills</span>
+            <h2>Modern foundations without inflated claims.</h2>
+          </div>
+       </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="icon-wrap"><i class="devicon-html5-plain colored"></i></div>
+            <h3>HTML5</h3>
+            <p>Building semantic and accessible websites.</p>
+          </article>
+          <article class="skill-card">
+            <div class="icon-wrap"><i class="devicon-css3-plain colored"></i></div>
+            <h3>CSS3</h3>
+            <p>Creating responsive and modern interfaces.</p>
+          </article>
+          <article class="skill-card">
+            <div class="icon-wrap"><i class="devicon-javascript-plain colored"></i></div>
+            <h3>JavaScript</h3>
+            <p>Adding interactivity and dynamic functionality.</p>
+          </article>
+          <article class="skill-card">
+            <div class="icon-wrap"><i class="devicon-java-plain colored"></i></div>
+            <h3>Java</h3>
+            <p>Developing object-oriented applications.</p>
+          </article>
+          <article class="skill-card">
+            <div class="icon-wrap"><i class="devicon-microsoftsqlserver-plain colored"></i></div>
+            <h3>SQL Server</h3>
+            <p>Managing databases and writing efficient queries.</p>
+          </article>
+          <article class="skill-card">
+            <div class="icon-wrap">✦</div>
+            <h3>UI/UX Design</h3>
+            <p>Designing user-friendly and modern interfaces.</p>
+          </article>
+          <article class="skill-card">
+            <div class="icon-wrap">z/s</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container skills-panel glass reveal">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Tools &amp; Technologies</span>
+            <h2>The toolkit behind each project build.</h2>
+          </div>
+       </div>
+
+        <div class="tools-grid">
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-vscode-plain colored"></i></div>
+            <h3>Visual Studio Code</h3>
+            <p>Code editor for development projects.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-git-plain colored"></i></div>
+            <h3>Git</h3>
+            <p>Version control system.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-github-original colored"></i></div>
+            <h3>GitHub</h3>
+            <p>Project repository and collaboration platform.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-mysql-plain colored"></i></div>
+            <h3>MySQL</h3>
+            <p>Database management system.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-microsoftsqlserver-plain colored"></i></div>
+            <h3>SQL Server</h3>
+            <p>Relational database platform.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-apache-plain colored"></i></div>
+            <h3>XAMPP</h3>
+            <p>Local web development environment.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap"><i class="devicon-figma-plain colored"></i></div>
+            <h3>Figma</h3>
+            <p>UI/UX design and prototyping.</p>
+          </article>
+          <article class="tool-card">
+            <div class="icon-wrap">C</div>
+            <h3>Canva</h3>
+            <p>Graphic and content design tool.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container projects-panel glass reveal">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Featured Projects</span>
+            <h2>Practical systems with a more premium presentation.</h2>
+          </div>
+          </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-ui">
+                <div class="preview-row">
+                  <div class="preview-chip"></div>
+                  <div class="preview-chip"></div>
+                </div>
+                <div class="preview-block"></div>
+                <div class="preview-row">
+                  <div class="preview-card"></div>
+                  <div class="preview-card"></div>
+                </div>
+              </div>
+              <div class="preview-panel"></div>
+            </div>
+            <h3>Face Recognition System</h3>
+            <p>Real-time face recognition using webcam and computer vision.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenCV</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#">View Project</a>
+              <a class="project-link" href="#">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-ui">
+                <div class="preview-row">
+                  <div class="preview-card"></div>
+                </div>
+                <div class="preview-row">
+                  <div class="preview-chip"></div>
+                  <div class="preview-chip"></div>
+                  <div class="preview-chip"></div>
+                </div>
+                <div class="preview-block" style="width: 64%;"></div>
+              </div>
+              <div class="preview-panel"></div>
+            </div>
+            <h3>Hand Gesture Drawing System</h3>
+            <p>Draw and control applications using hand tracking.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">MediaPipe</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#">View Project</a>
+              <a class="project-link" href="#">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-ui">
+                <div class="preview-block" style="width: 48%;"></div>
+                <div class="preview-row">
+                  <div class="preview-card"></div>
+                  <div class="preview-card"></div>
+                  <div class="preview-card"></div>
+                </div>
+              </div>
+              <div class="preview-panel"></div>
+            </div>
+            <h3>Restaurant POS System</h3>
+            <p>Sales and inventory management system.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#">View Project</a>
+              <a class="project-link" href="#">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-ui">
+                <div class="preview-row">
+                  <div class="preview-card"></div>
+                  <div class="preview-card"></div>
+                </div>
+                <div class="preview-block" style="width: 58%;"></div>
+              </div>
+              <div class="preview-panel"></div>
+            </div>
+            <h3>Student Transportation Card System</h3>
+            <p>Student transportation payment and verification system.</p>
+            <div class="tags">
+              <span class="tag">RFID</span>
+              <span class="tag">Database</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#">View Project</a>
+              <a class="project-link" href="#">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-ui">
+                <div class="preview-row">
+                  <div class="preview-card"></div>
+                </div>
+                <div class="preview-block" style="width: 70%;"></div>
+                <div class="preview-block" style="width: 42%;"></div>
+              </div>
+              <div class="preview-panel"></div>
+            </div>
+            <h3>Personal Portfolio Website</h3>
+            <p>Responsive personal portfolio website.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link" href="#">View Project</a>
+              <a class="project-link" href="#">GitHub</a>
+            </div>
+          </article>
+
+          <aside class="newsletter glass">
+            <span class="eyebrow">Stay Connected</span>
+            <h3>Subscribe to future project updates.</h3>
+            <p>Keep in touch for portfolio improvements, new student builds, and software development progress.</p>
+            <form class="newsletter-form">
+              <label class="sr-only" for="newsletterEmail">Email address</label>
+              <input id="newsletterEmail" type="email" placeholder="Your email address">
+              <button class="button primary" type="button">Subscribe Now</button>
+            </form>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="container about-grid">
+        <div class="timeline glass reveal">
+          <div>
+            <span class="eyebrow">Education Journey</span>
+            <h2>Learning milestones on the path to software engineering.</h2>
+          </div>
+          <article class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <strong>Started BSIT</strong>
+            <p>Began the formal journey in information technology and software fundamentals.</p>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <strong>Built the web and database foundation</strong>
+            <p>Learned HTML, CSS, JavaScript, and database management through coursework and practice projects.</p>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-year">2026</div>
+            <strong>Turned learning into applied systems</strong>
+            <p>Built a face recognition system, hand gesture drawing system, restaurant POS system, and this portfolio website.</p>
+          </article>
+        </div>
+
+        <div class="glass reveal" style="padding: 30px; border-radius: var(--radius-xl);">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Achievements</span>
+              <h2>Clear signals of momentum and growth.</h2>
+            </div>
+          </div>
+          <div class="achievement-grid">
+            <article class="achievement-card">
+              <strong>10+</strong>
+              <span>Projects Completed</span>
+            </article>
+            <article class="achievement-card">
+              <strong>8+</strong>
+              <span>Technologies &amp; Tools Learned</span>
+            </article>
+            <article class="achievement-card">
+              <strong>2+</strong>
+              <span>Years Learning Programming</span>
+            </article>
+            <article class="achievement-card">
+              <strong>Strong</strong>
+              <span>Problem Solving Skills</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <article class="contact-card glass reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Let’s build something meaningful together.</h2>
+          <p class="muted">Open to internship opportunities, collaborations, and student-friendly software projects.</p>
+
+          <div class="contact-stack" style="margin-top: 24px;">
+            <div class="contact-item">
+              <strong>Email</strong>
+              <p>jmbaliguat@antiquespride.edu.ph.com</p>
+            </div>
+            <div class="contact-item">
+              <strong>Phone</strong>
+              <p>+63 963 832 1175</p>
+            </div>
+            <div class="contact-item">
+              <strong>GitHub</strong>
+              <p>github.com/jmbaliguat</p>
+            </div>
+            <div class="contact-item">
+              <strong>Facebook</strong>
+              <p>facebook.com/Jeso Baliguat</p>
+            </div>
+            <div class="contact-item">
+              <strong>Location</strong>
+              <p>Antique, Philippines</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="contact-form glass reveal">
+          <span class="eyebrow">Send Message</span>
+          <h2>Start the conversation.</h2>
+          <form>
+            <label class="sr-only" for="contactName">Name</label>
+            <input id="contactName" type="text" placeholder="Your name">
+            <label class="sr-only" for="contactEmail">Email</label>
+            <input id="contactEmail" type="email" placeholder="Your email">
+            <label class="sr-only" for="contactMessage">Message</label>
+            <textarea id="contactMessage" placeholder="Tell me about your project or opportunity"></textarea>
+            <button class="button primary" type="button">Send Message</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-shell glass">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="#home">
+              <span class="brand-mark">&lt;/&gt;</span>
+              <span>JB Portfolio</span>
+            </a>
+            <p class="muted" style="margin-top: 16px; max-width: 360px;">
+              BSIT Student & Web Developer
+            </p>
+          </div>
+          <div>
+            <strong>Quick Links</strong>
+            <div class="quick-links">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#tools">Tools</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <div>
+            <strong>Social Media</strong>
+            <div class="footer-social">
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+              <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="mailto:jeson@example.com">Email</a>
+            </div>
+          </div>
+        </div>
+        <p class="muted" style="margin: 28px 0 0;">© 2026 Jeson Baliguat. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" type="button" aria-label="Back to top">↑</button>
+</body>
+<script src="script.js"></script>
+</html>
